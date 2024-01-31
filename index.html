@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Creator</title>
+    <link rel="shortcut icon" href="resume.svg" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-content">
+        <a href="#home" class="logo"
+          ><h2 class="logo-heading">Resume Creator</h2>
+        </a>
+        <div class="nav-menu">
+          <ul class="nav-content">
+            <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+            <li class="nav-item">
+              <a href="#aboutus" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#creator1" class="nav-link">Creators</a>
+            </li>
+            <li class="nav-item">
+              <a href="#application1" class="nav-link">Application</a>
+            </li>
+          </ul>
+          <div class="day-night">
+            <i class="fa-solid fa-sun"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="design">
+      <div class="design-content">
+        <h2 class="design-head">Get Your CV for Free</h2>
+        <img src="design.svg" alt="" class="design-img" />
+      </div>
+      <div class="underline"></div>
+    </section>
+
+    <section class="demo">
+      <div class="demo-content">
+        <div class="resume-content">
+          <img src="./resumeDesign/one.pdf.jpg" alt="" class="resume-img" />
+        </div>
+        <div class="resume-content">
+          <img src="./resumeDesign/two.pdf.jpg" alt="" class="resume-img" />
+        </div>
+        <div class="resume-content">
+          <img src="./resumeDesign/three.pdf.jpg" alt="" class="resume-img" />
+        </div>
+      </div>
+    </section>
+
+    <section class="application" id="application1">
+      <div class="application-content">
+        <form>
+          <div class="personal-information">
+            <h1 class="head">Personal Information</h1>
+            <div class="input">
+              <label for="name"
+                >Your Name<span class="must-fill">*</span></label
+              >
+              <input
+                type="text"
+                name=""
+                id="name"
+                placeholder="Enter Here"
+                autocomplete="on"
+              />
+            </div>
+            <div class="input">
+              <label for="phone"
+                >Your Phone<span class="must-fill">*</span></label
+              >
+              <input
+                type="number"
+                name=""
+                id="phone"
+                placeholder="Enter Here"
+              />
+            </div>
+            <p class="links-para">Important links:</p>
+            <div class="input">
+              <label for="mail"
+                >Your Email<span class="must-fill">*</span></label
+              >
+              <input type="email" name="" id="mail" placeholder="Enter Here" />
+            </div>
+            <div class="input">
+              <label for="linkedin">Your Linkedin</label>
+              <input
+                type="text"
+                name=""
+                id="linkedin"
+                placeholder="Enter Here"
+              />
+            </div>
+            <div class="input">
+              <label for="github">Your Github</label>
+              <input type="text" name="" id="github" placeholder="Enter Here" />
+            </div>
+            <div class="input">
+              <label for="website">Your Website Link</label>
+              <input
+                type="text"
+                name=""
+                id="website"
+                placeholder="Enter Here"
+              />
+            </div>
+          </div>
+          <div class="professional-skills">
+            <h1 class="head">Professional Skills</h1>
+            <div class="input">
+              <label for="qualification"
+                >Academic Qualification<span class="must-fill">*</span></label
+              >
+              <textarea
+                name=""
+                id="qualification"
+                cols="40"
+                rows="2"
+                placeholder="Enter Here"
+              ></textarea>
+            </div>
+            <button class="btn">Add</button>
+            <div class="input">
+              <label for="project">Projects</label>
+              <textarea
+                name=""
+                id="project"
+                cols="40"
+                rows="2"
+                placeholder="Enter Here"
+              ></textarea>
+            </div>
+            <button class="btn">Add</button>
+            <div class="input">
+              <label for="experience">Work Experience</label>
+              <textarea
+                name=""
+                id="experience"
+                cols="40"
+                rows="2"
+                placeholder="Enter Here"
+              ></textarea>
+            </div>
+            <div class="input">
+              <label for="objectives">Objectives</label>
+              <textarea
+                name=""
+                id="objectives"
+                cols="40"
+                rows="2"
+                placeholder="Enter Here"
+              ></textarea>
+            </div>
+          </div>
+        </form>
+        <div class="btns">
+          <button class="generate-btn">Generate Cv</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="creators" id="creator1">
+      <div class="creator-heading">
+        <h1>Creators</h1>
+      </div>
+
+      <div class="creator-content">
+        <div class="creators-data">
+          <img src="profile.jpg" alt=".aaravimg" class="creator-logo" />
+          <div class="creator-detail">
+            <h2 class="creator-detail-item">Aarav Goyal</h2>
+            <p class="creator-detail-item">UID-22BCS15450</p>
+            <p class="creator-detail-item">GROUP-TPP715-B</p>
+          </div>
+        </div>
+        <div class="creators-data">
+          <img src="profile.jpg" alt=".amanimg" class="creator-logo" />
+          <div class="creator-detail">
+            <h2 class="creator-detail-item">Aman Kumar</h2>
+            <p class="creator-detail-item">UID-22BCS16479</p>
+            <p class="creator-detail-item">GROUP-TPP810-B</p>
+          </div>
+        </div>
+
+        <div class="creators-data">
+          <img src="profile.jpg" alt=".krishnaimg" class="creator-logo" />
+          <div class="creator-detail">
+            <h2 class="creator-detail-item">Krishna Kumar</h2>
+            <p class="creator-detail-item">UID-22BCS16478</p>
+            <p class="creator-detail-item">GROUP-TPP810-B</p>
+          </div>
+        </div>
+        <div class="creators-data">
+          <img src="profile.jpg" alt=".lalitimg" class="creator-logo" />
+          <div class="creator-detail">
+            <h2 class="creator-detail-item">Lalit Shakya</h2>
+            <p class="creator-detail-item">UID-22BCS16473</p>
+            <p class="creator-detail-item">GROUP-TPP810-B</p>
+          </div>
+        </div>
+        <div class="creators-data">
+          <img src="profile.jpg" alt=".manishimg" class="creator-logo" />
+          <div class="creator-detail">
+            <h2 class="creator-detail-item">Manish Kumar</h2>
+            <p class="creator-detail-item">UID-22BCS15641</p>
+            <p class="creator-detail-item">GROUP-TPP808-B</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="question">
+      <h1 class="question-head">Frequently Asked Questions</h1>
+      <div class="question-content">
+        <div class="question-inside">
+          <details>
+            <summary>What is a resume?</summary>
+            <p class="question-para">
+              A resume, sometimes called a CV or curriculum vitae, is a document
+              mostly used to showcase your career background, skills, and
+              accomplishments when searching for a job. Resume Build helps you
+              create professional resumes tailored to the specific industry or
+              job you want in just minutes.
+            </p>
+          </details>
+        </div>
+        <div class="question-inside">
+          <details>
+            <summary>How Many Pages Should a Resume Be?</summary>
+            <p class="question-para">
+              Resumes should grab the recruiter’s attention in just a few
+              seconds, and Resume Build helps you create the perfect resume
+              using expert tips and pre-written resume examples to build it fast
+              and easily. While the length of the resume depends on the career
+              field and experience of the applicant, a two-page resume is ideal,
+              according to employers.
+            </p>
+          </details>
+        </div>
+        <div class="question-inside">
+          <details>
+            <summary>How long should a resume be?</summary>
+            <p class="question-para">
+              Resumes should be between one to three pages long depending on
+              your experience and career goals. Our guide on resume length will
+              help you determine how many pages make sense for your specific
+              situation.
+            </p>
+          </details>
+        </div>
+        <div class="question-inside">
+          <details>
+            <summary>How do I list skills on a resume?</summary>
+            <p class="question-para">
+              We recommend including a “Key Skills'' section on your resume that
+              highlights your most valuable assets as an employee in a simple
+              bulleted list. Our guide to hard skills vs. soft skills will help
+              you decide which items should be included on your list.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-botton">
+        <div class="black-top-radius"></div>
+        Copyright &copy; 2024 Resume Creator.All Rights Reserved.
+      </div>
+    </footer>
+  </body>
+</html>
